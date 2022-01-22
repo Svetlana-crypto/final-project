@@ -4,13 +4,15 @@ import {Navbar, Container, Nav, Button, Modal, Form} from "react-bootstrap";
 import styled from "styled-components";
 
 const  Styles = styled.div`
-a, .navbar-brand, .navbar-nav .nav-link{
-    color: #adb1b8;
+  a, .navbar-brand, .navbar-nav .nav-link {
+    color: #a7aab0;
     text-decoration: none;
-    &:hover{
-    color: white;
-     }
-}`;
+
+    &:hover {
+      color: #ffffff;
+      font-size: 20px;
+    }
+  }`;
 
 
 
@@ -31,6 +33,7 @@ const Navibar = () => {
             <Nav className="me-auto">
               <Nav.Link><Link to='/'>Home</Link></Nav.Link>
               <Nav.Link ><Link to='/users'>Users</Link></Nav.Link>
+              <Nav.Link ><Link to='/follower'>Follower</Link></Nav.Link>
               <Nav.Link ><Link to='/currency'>Currency</Link></Nav.Link>
             </Nav>
               <Nav>
@@ -57,7 +60,7 @@ const Navibar = () => {
             <Form.Control type="password" placeholder='Enter password'/>
           </Form.Group>
           <Form.Group controlId="fromBasicCheckbox">
-            <Form.Check type="checkbox" label="Rememder me"/>
+            <Form.Check type="checkbox" label="Remember me"/>
           </Form.Group>
         </Form>
       </Modal.Body>

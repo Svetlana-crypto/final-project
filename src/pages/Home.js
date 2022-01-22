@@ -2,7 +2,7 @@ import React from 'react';
 import Slider from "../components/slider";
 import Jumbotron from "../components/jumbotron";
 import {Container, Row, Col, Card, Button} from "react-bootstrap";
-
+// import './styles.css'
 
 const Home = () => {
   return (
@@ -13,15 +13,15 @@ const Home = () => {
           <Col>
             <Card style={{width: '18rem'}}>
               <Card.Img
-                src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs7dliohN63EtNHV-QOC-CsTfDB8k794O8Hy6X42d12u6vhAuxFbLNpAVwKDtkTZARlTo&usqp=CAU'
+                src='https://cards.optimabank.kg/images/design/cards/visa-gold.png'
                 variant='top'
               />
               <Card.Body>
-                <Card.Title>Lorem ipsum dolor </Card.Title>
+                <Card.Title>Visa Gold </Card.Title>
                 <Card.Text>
-                  Lorem ipsum dolor sit.
+                  Став владельцем данной карты.Вы получаете не только премиальную международную карту, но и много дополнительных возможностей, которыми она обладает:Возможность открытия мультивалютной карты в четырех валютах – сом, долл., евро,рубль.
                 </Card.Text>
-                <Button variant='primary'>Lorem ipsum.</Button>
+                <Button variant='primary'>Заказать</Button>
               </Card.Body>
             </Card>
           </Col>
@@ -32,26 +32,26 @@ const Home = () => {
                 variant='top'
               />
               <Card.Body>
-                <Card.Title>Lorem ipsum dolor </Card.Title>
+                <Card.Title>МУЛЬТИВАЛЮТНАЯ КАРТА </Card.Title>
                 <Card.Text>
-                  Lorem ipsum dolor sit.
+                  Основное отличие мультивалютной  карты от обычной карты в рублях или долларах, это возможность привязки одной карты сразу к нескольким счетам в разной валюте.
                 </Card.Text>
-                <Button variant='primary'>Lorem ipsum.</Button>
+                <Button variant='primary'>Заказать</Button>
               </Card.Body>
             </Card>
           </Col>
           <Col>
             <Card style={{width: '18rem'}}>
               <Card.Img
-                src='https://banks.kg/storage/147/visa-gold-924.jpg'
+                src='https://cards.optimabank.kg/images/design/cards/visa-infinity.png'
                 variant='top'
               />
               <Card.Body>
-                <Card.Title>Lorem ipsum dolor </Card.Title>
+                <Card.Title>Visa infinite </Card.Title>
                 <Card.Text>
-                  Lorem ipsum dolor sit.
+                  Философия VISA Infinite основывается на принципе «клубности». В отличие от всех остальных продуктов и услуг Банка, карта VISA Infinite открывает для своих держателей доступ в элитарный Private Banking Club, где они могут воспользоваться.
                 </Card.Text>
-                <Button variant='primary'>Lorem ipsum.</Button>
+                <Button variant='primary'>Заказать</Button>
               </Card.Body>
             </Card>
           </Col>
@@ -63,14 +63,16 @@ const Home = () => {
           <Col md={7}>
             <img className="w-100"
                  height={400}
-                 src="https://3dpapa.ru/wp-content/uploads/2016/09/nikrost-soane-1.jpg"
+                 src='https://24.kg/thumbnails/3eceb/ced54/244834_w750_h_r.png'
                  alt=""/>
           </Col>
           <Col md={5}>
-            <h2>Lorem ipsum dolor sit.</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing
-              elit. Alias at autem, est eveniet fugiat quia repudiandae!
-              A libero numquam tempore.</p>
+            <h2>Уважаемые клиенты!</h2>
+            <p>ОАО «Оптима Банк» работает в штатном режиме!
+
+              С 10 января все подразделения обслуживают клиентов согласно графику работы отделений банка.
+
+              Чрезвычайное положение, введенное в Республике Казахстан, напрямую или косвенно не влияет на деятельность банка. ОАО «Оптима банк» является банком № 1 в КР по всем показателям: активам, собственному капиталу, кредитам, депозитам и чистой прибыли. Общая сумма денежных средств ОАО «Оптима Банк» в наличной и безналичной форме составляет более 44 миллиардов сомов в эквиваленте.</p>
           </Col>
         </Row>
       </Container>

@@ -26,7 +26,7 @@ const Slider = () => {
         </Carousel.Item>
         <Carousel.Item style={{'height': '500px'}}>
           <img className="d-block w-100"
-               src='https://i1.photo.2gis.com/main/branch/112/70000001019985469/common'
+               src='https://www.akchabar.kg/media/news/0203000c-cf5c-43f7-bf8b-4fb39d890b96.jpg'
                alt="Third slide"
           />
           <Carousel.Caption>

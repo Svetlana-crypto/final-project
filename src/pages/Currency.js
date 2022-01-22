@@ -1,7 +1,6 @@
-
-
 import React, { useEffect, useState } from 'react';
 import CurrencyRow from '../components/currencyRow/CurrencyRow'
+import './styles.css'
 
 const BASE_URL = 'http://api.exchangeratesapi.io/v1/latest?access_key=4ae3aa949440c0f8af982858f2cac503&symbols=USD,AUD,CAD,PLN,MXN&format=1'
 
@@ -26,6 +25,7 @@ function Currency() {
     fetch(BASE_URL)
       .then(res => res.json())
       .then(data => {
+        console.log(data);
         const firstCurrency = Object.keys(data.rates)[0]
         setCurrencyOptions([data.base, ...Object.keys(data.rates)])
         setFromCurrency(data.base)

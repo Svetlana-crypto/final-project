@@ -1,28 +1,31 @@
-/*a, .navbar-brand, .navbar-nav .nav-link{*/
-/*    color: #adb1b8;*/
-/*    text-decoration: none;*/
-/*    &:hover{*/
-/*    color: white;*/
-/*     }*/
-/*};*/
 
 
-/*.jumbo{*/
-/*   background: url("https://wallpapers-fenix.eu/full/151009/040254233.jpg") no-repeat fixed bottom;*/
-/*    background-size: cover;*/
-/*    color: #efefef;*/
-/*    height: 400px;*/
-/*    position: relative;*/
-/*    z-index: -2;*/
-/*    padding-top: 80px;*/
-/*}*/
-/*.overlay{*/
-/*    background-color: #000;*/
-/*    opacity: 0.6;*/
-/*    top: 0;*/
-/*    left: 0;*/
-/*    bottom: 0;*/
-/*    right: 0;*/
-/*    z-index: -1;*/
-/*}*/
+a, .navbar-brand, .navbar-nav .nav-link {
+    color: #adb1b8;
+    text-decoration: none;
+}
+    :hover{
+    color: white;
+     }
+
+
+
+.jumbo{
+   background: url("https://wallpapers-fenix.eu/full/151009/040254233.jpg") no-repeat fixed bottom;
+    background-size: cover;
+    color: #efefef;
+    height: 400px;
+    position: relative;
+    z-index: -2;
+    padding-top: 80px;
+}
+.overlay{
+    background-color: #000;
+    opacity: 0.6;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
 
