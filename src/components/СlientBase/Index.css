@@ -132,6 +132,7 @@ Pagination
     text-align: center;
     margin: 4rem 0 6rem 0;
     color: black;
+    box-shadow: 5px 5px 5px 10px rgb(0 0 0 / 80%);
 }
 .underline {
     width: 8rem;
@@ -142,11 +143,11 @@ Pagination
 img{
     width: 100px;
     margin-top: 20px;
-    border-radius: 60px;
+    /*border-radius: 60px;*/
     box-shadow: 5px 5px 30px 12px rgb(0 0 0 / 50%);
 }
 article {
-    display: block;
+    /*display: block;*/
     text-align: center;
     justify-content: center;
     height: 200px;
@@ -159,16 +160,14 @@ article {
     max-width: var(--max-width);
     margin: 5rem auto;
 }
-.responsive-navbar-nav{
 
-}
-.container {
+.container1 {
     display: grid;
     gap: 2rem;
     margin-bottom: 4rem;
 }
 @media screen and (min-width: 576px) {
-    .container {
+    .container1 {
         grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     }
 }
@@ -221,10 +220,12 @@ article {
     cursor: pointer;
     margin: 0.5rem;
     transition: var(--transition);
+    box-shadow: 5px 5px 5px 5px rgb(0 0 0 / 70%);
 }
 .active-btn {
     background: var(--clr-primary-1);
     color: var(--clr-white);
+    box-shadow: 5px 5px 5px 5px rgb(0 0 0 / 70%);
 }
 .prev-btn,
 .next-btn {

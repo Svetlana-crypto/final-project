@@ -2,7 +2,8 @@ import React from 'react';
 import Slider from "../components/slider";
 import Jumbotron from "../components/jumbotron";
 import {Container, Row, Col, Card, Button} from "react-bootstrap";
-// import './styles.css'
+import './styles.css';
+
 
 const Home = () => {
   return (

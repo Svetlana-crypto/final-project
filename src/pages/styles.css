@@ -1,11 +1,8 @@
 body {
-    /*background: url('https://www.ixbt.com/img/n1/news/2021/11/6/hydb0rb0nt_big.jpg.efbeae98b12c2686debc2ecc82542834_large_large.jpg');*/
-    margin: 0;
-    display: flex;
     justify-content: center;
-    align-items: center;
     min-height: 100vh;
     text-align: center;
+    width: 100%;
 }
 
 
@@ -15,6 +12,7 @@ body {
     padding: .25rem;
     width: 7em;
     box-shadow: 5px 5px 5px 5px rgb(0 0 0 / 70%);
+    color: black;
 }
 
 select {
@@ -23,6 +21,7 @@ select {
     margin-left: .5rem;
     box-shadow: 5px 5px 5px 5px rgb(0 0 0 / 70%);
     height: 30px;
+    color: black;
 }
 
 .equals {
@@ -41,5 +40,5 @@ p{
 }
 .currency{
     padding: 20px;
-
+    color: black;
 }

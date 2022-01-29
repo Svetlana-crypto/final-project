@@ -2,7 +2,7 @@ import React, {useEffect, useState} from "react";
 import {useFetch} from "./ComponentsBase/useFetch";
 import Follower from "./ComponentsBase/follower";
 import './App.css';
-
+import './Index.css';
 
 function App() {
 
@@ -44,7 +44,7 @@ function App() {
         <h1>{loading ? 'loading...' : 'customer reviews'}</h1>
       </div>
       <section className="followers">
-        <div className='container'>
+        <div className='container1'>
           {followers.map((follower) => {
             return <Follower key={follower.id} {...follower}/>
           })}

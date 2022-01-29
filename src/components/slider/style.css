@@ -28,4 +28,13 @@ a, .navbar-brand, .navbar-nav .nav-link {
     right: 0;
     z-index: -1;
 }
-
+.card-text{
+    color: #000;
+}
+.card-title{
+    color: #000;
+}
+img.card-img-top{
+    width: 222px;
+    height: 135px;
+}
