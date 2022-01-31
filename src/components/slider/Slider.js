@@ -10,8 +10,10 @@ const Slider = () => {
                src='https://24.kg/thumbnails/cf52f/9fac5/221975_w750_h_r.png' alt="First slide"
           />
           <Carousel.Caption>
-            <h3>Lorem ipsum.</h3>
-            <p>Lorem ipsum dolor.</p>
+            <h3 className='carousel-header'>
+              Optima Bank
+            </h3>
+            <p className='carousel-text'>«Банк №1 в Кыргызстане».</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item style={{'height': '500px'}}>
@@ -20,8 +22,10 @@ const Slider = () => {
                alt="Second slide"
           />
           <Carousel.Caption>
-            <h3>Lorem ipsum.</h3>
-            <p>Lorem ipsum dolor.</p>
+            <h3 className='carousel-header'>
+              Optima Bank
+            </h3>
+            <p className='carousel-text'>«Банк №1 в Кыргызстане».</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item style={{'height': '500px'}}>
@@ -30,8 +34,10 @@ const Slider = () => {
                alt="Third slide"
           />
           <Carousel.Caption>
-            <h3>Lorem ipsum.</h3>
-            <p>Lorem ipsum dolor.</p>
+            <h3 className='carousel-header'>
+             Optima Bank
+            </h3>
+            <p className='carousel-text'>«Банк №1 в Кыргызстане».</p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>

@@ -29,15 +29,7 @@ select {
     font-size: 2rem;
     color: black;
 }
-h1{
-    color: black;
-}
-h2{
-    color: #000;;
-}
-p{
-    color: #000;
-}
+
 .currency{
     padding: 20px;
     color: black;

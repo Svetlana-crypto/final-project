@@ -5,7 +5,7 @@ a, .navbar-brand, .navbar-nav .nav-link {
     text-decoration: none;
 }
     :hover{
-    color: white;
+    color: #131313;
      }
 
 
@@ -38,3 +38,20 @@ img.card-img-top{
     width: 222px;
     height: 135px;
 }
+.carousel-header{
+    font-style: inherit;
+    font-weight: 800;
+    font-size: 90px;
+    color: white;
+}
+.carousel-text{
+    font-size: 20px;
+    color: white;
+}
+h1{
+    color: white;
+}
+.jumbo-overlay{
+    color: white;
+}
+

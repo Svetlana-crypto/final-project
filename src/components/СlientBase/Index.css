@@ -140,10 +140,10 @@ Pagination
     background: var(--clr-primary-5);
     margin: 0 auto;
 }
-img{
+.img-top{
     width: 100px;
     margin-top: 20px;
-    /*border-radius: 60px;*/
+    border-radius: 60px;
     box-shadow: 5px 5px 30px 12px rgb(0 0 0 / 50%);
 }
 article {
@@ -181,9 +181,12 @@ article {
 .card img {
     width: 130px;
     height: 130px;
-    border-radius: 50%;
+    /*border-radius: 50%;*/
     object-fit: cover;
     margin-bottom: 0.75rem;
+}
+.card-img-top {
+    margin-left: -20px;
 }
 
 .card h4 {
