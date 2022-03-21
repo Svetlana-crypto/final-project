@@ -27,13 +27,12 @@ const Navibar = () => {
       <Styles>
         <Navbar collapseOnSelect expand='lg' bg="dark" variant="dark">
           <Container>
-            <Navbar.Brand href="#home">Navbar</Navbar.Brand>
             <Navbar.Toggle aria-controls='responsive-navbar-nav'/>
             <Navbar.Collapse id='responsive-navbar-nav'>
             <Nav className="me-auto">
               <Nav.Link><Link to='/'>Home</Link></Nav.Link>
               <Nav.Link ><Link to='/users'>Users</Link></Nav.Link>
-              <Nav.Link ><Link to='/follower'>Follower</Link></Nav.Link>
+              <Nav.Link ><Link to='/follower'>Reviews</Link></Nav.Link>
               <Nav.Link ><Link to='/currency'>Currency</Link></Nav.Link>
             </Nav>
               <Nav>
@@ -53,7 +52,7 @@ const Navibar = () => {
           <Form.Group controlId='fromBasicEmail'>
             <Form.Label>Email Address</Form.Label>
             <Form.Control type="email" placeholder='Enter email'/>
-            <Form.Text class='text-muted'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </Form.Text>
+            <Form.Text class='text-muted'>Enter your email address </Form.Text>
           </Form.Group>
           <Form.Group controlId="fromBasicPassword">
             <Form.Label>Password</Form.Label>

@@ -4,7 +4,7 @@ import styled from "styled-components";
 const Styles = styled.div`
 
   .jumbo{
-  background: url("https://data.kaktus.media/image/big/2021-07-01_15-46-12_626689.jpg") no-repeat fixed bottom;
+  background: url("https://www.ixbt.com/img/n1/news/2021/8/3/Bitcoin-dollar.jpg") no-repeat fixed bottom;
   background-size: cover;
   color: #000000;
   height: 400px;
